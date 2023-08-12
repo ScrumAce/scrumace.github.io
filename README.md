@@ -1,2 +1,2 @@
 # ScrumAce : Empowering Agile Practitioners
-## Coming Soon
+## Visit [https://www.scrumace.com/](https://www.scrumace.com/)
