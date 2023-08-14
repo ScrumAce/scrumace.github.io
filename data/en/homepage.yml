@@ -4,42 +4,31 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Pick up our brains"
+      content : "Get a constant stream of valuable content designed to demystify Agile concepts and receive real-world experiences and actionable insights."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact/"
+        label : "Read Now"
+        link : "blog/"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Questions in your mind?"
+      content : "Shhot us a message and we will get back to you at the earliest."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact/"
-
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
+        label : "Get in touch"
         link : "contact/"
 
 
 ############################### Banner feature ###############################
 banner_feature:
-  enable : true
+  enable : false
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
@@ -66,12 +55,9 @@ banner_feature:
 ############################## about ##################################
 about:
   enable : true
-  title : "About Educenter"
+  title : "Demystifying Agile"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "At ScrumAce.com, we are dedicated to empowering Agile practitioners around the globe with the knowledge and expertise needed to excel in the dynamic world of Agile methodologies. Whether you're just starting your Agile journey or looking to enhance your skills, ScrumAce is your trusted partner on the path to Agile mastery.<br/><br/>Founded by a team of seasoned Agile practitioners, ScrumAce is the result of over a decade of collective experience in leading global GSIs and FAANG companies. Having successfully orchestrated and executed complex, multi-million dollar Agile projects for enterprises, our team recognized the need for a comprehensive and accessible platform to foster deeper understanding and practical application of Agile principles."
   button:
     enable : true
     label : "Learn more"
@@ -80,13 +66,13 @@ about:
 
 ############################# Course ################################
 course:
-  enable : true
+  enable : false
   title : "Our Course"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
 cta:
-  enable : true
+  enable : false
   subtitle : "Click to Join the Advance Workshop"
   title : "Training In Advannce Networking"
   button:
@@ -111,14 +97,14 @@ success_story:
 
 ############################# event ################################
 event:
-  enable : true
+  enable : false
   title : "Upcoming Events"
   # event item comes from "content/**/event" folder.
 
   
 ########################### funfacts ############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # funfact item loop
     - name : "TEACHERS"
@@ -143,5 +129,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "Latest News"
+  title : "Latest Blogs"
   # blog item comes from "content/**/blog" folder.
