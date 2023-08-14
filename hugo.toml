@@ -8,9 +8,9 @@ paginate = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 # google analytics
-googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# disqus short name
-disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+#googleAnalytics = "G-K3QJM5YXBK" 
+# disqus short nam. To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+#disqusShortname =  ""
 # disable language, example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 disableLanguages = ["fr"] 
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
@@ -99,7 +99,7 @@ author = "ScrumAce.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # your id
+google_analytics_id = "G-K3QJM5YXBK" 
 # top header
 top_header = false
 
@@ -110,7 +110,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
-enable = false
+enable = true
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -154,6 +154,8 @@ expire_days = 2
 #icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 #link = "#"
 
+[params.showFooter]
+enable = false
 
 ################################### English language #####################################
 [Languages.en]
@@ -216,10 +218,9 @@ url = "blog/"
 weight = 4
   
 [[Languages.en.menu.main]]
-#name = "Contact"
-#url = "contact/"
-#weight = 5
-
+name = "Contact"
+url = "contact/"
+weight = 5
 
 # footer menu
 [[Languages.en.menu.footer]]

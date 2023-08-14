@@ -1,5 +1,5 @@
 ---
-title: "What does “maximizing the amount of work not done” even mean?"
+title: "What does 'maximizing the amount of work not done' even mean?"
 date: 2023-07-18T15:27:17+06:00
 draft: false
 # page title background image
