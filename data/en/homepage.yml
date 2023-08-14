@@ -83,16 +83,12 @@ cta:
 
 ######################## Success story #############################
 success_story:
-  enable : false
+  enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Success Stories"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-            
-            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  title : "Pass the PSPO Certification"
+  content : "Product Owners (POs) play a pivotal role in software projects, acting as the bridge between stakeholders and development teams. As the demand for skilled Product Owners continues to surge, attaining the PSPO certification stands out as a valuable edge in the competitive job market.<br/><br/>The PSPO-I certification is the first level of Product Owner certification, and it validates your expertise in product ownership within the Scrum framework. The comprehensive Mock Exams course from ScrumAce prepares you to tackle the certification exam with confidence and finesse."
   # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  video_link : "https://www.youtube.com/watch?v=HDjrkC_B0sc"
 
 
 ############################# event ################################

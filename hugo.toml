@@ -105,15 +105,17 @@ top_header = false
 
 # Preloader
 [params.preloader]
-enable = false
+enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
 enable = true
-# mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+# substack subsciption
+subs_form_action = "https://agilechronicles.substack.com/embed" 
+subs_form_style = "border:2px solid #8C031C; background: #8C031C; padding-bottom:0;margin-bottom:0;" 
+subs_form_width = 400
+subs_form_height = 90
 
 # google map
 [params.map]
