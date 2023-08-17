@@ -7,8 +7,6 @@ timeZone = "Asia/Kolkata"
 paginate = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
-# google analytics
-#googleAnalytics = "G-K3QJM5YXBK" 
 # disqus short nam. To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 #disqusShortname =  ""
 # disable language, example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
@@ -132,9 +130,9 @@ expire_days = 2
   
 ############################# social site ########################
 [[params.social]]
-#title = "facebook"
-#icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-#link = "#"
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/@ScrumAce"
 
 [[params.social]]
 #title = "twitter"
