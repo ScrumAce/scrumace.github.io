@@ -13,6 +13,11 @@ summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 disableLanguages = ["fr"] 
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 
+[sitemap]
+  changeFreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = -1
+
 ############################# Build ##############################
 [build]
 noJSConfigInAssets = false
