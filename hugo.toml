@@ -314,9 +314,7 @@ name = "Contact"
 url = "contact/"
 weight = 5
 
-
 # footer menu
-
 [[Languages.fr.menu.footer]]
 name = "teacher"
 url = "teacher/"
